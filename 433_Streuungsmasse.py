@@ -24,3 +24,11 @@ if differenz < 0:
     differenz *= -1
     
 print(f"Differenz: {differenz} Codezeilen")
+
+# Standardabweichung
+
+def std_abw(list):
+    return statistics.stdev(list)
+
+print(f"Standardabweichung Coder A: {std_abw(coder_A):.2f}")
+print(f"Standardabweichung Coder B: {std_abw(coder_B):.2f}")
